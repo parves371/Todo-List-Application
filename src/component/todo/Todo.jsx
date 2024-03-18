@@ -70,8 +70,8 @@ const Todo = () => {
   }, [todoList]);
 
   return (
-    <div className="bg-gray-200 h-screen gap-y-2 m-auto w-[1320px] pt-32">
-      <section className="flex justify-center items-center flex-col">
+    <div className="bg-gray-200 h-screen gap-y-2  pt-32">
+      <section className="flex justify-center items-center flex-col m-auto w-[1320px]">
         <div className="flex flex-col">
           <input
             type="text"
